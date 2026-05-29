@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>SportStep - Zapatos Deportivos</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    .marquesina {
+      background: black;
+      color:      red;
+      padding: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    @keyframes mover {
+      from { transform: translateX(100%); }
+      to   { transform: translateX(-100%); }
+    }
+
+    .marquesina span {
+      display: inline-block;
+      animation: mover 15s linear infinite;
+    }
+
+    nav {
+      background: red;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .seccion {
+      padding: 30px 60px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    h2 { color: red; }
+
+    img {
+      width: 400px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="marquesina">
+    <span> Anderson Ricardo Alvarez Hernandez </span>
+  </div>
+
+  <h1 style="text-align:center; padding:20px;">SPORT<span style="color:red;">STEP</span></h1>
+
+  <nav>
+    <a href="#quienes">Quiénes Somos</a>
+    <a href="#acerca">Acerca de Nosotros</a>
+    <a href="#productos">Productos</a>
+    <a href="#proveedores">Proveedores</a>
+    <a href="#ventas">Ventas</a>
+    <a href="#contactos">Contactos</a>
+  </nav>
+
+  <div class="seccion" id="quienes">
+    <h2>👟 Quiénes Somos</h2>
+    <p>Somos una tienda guatemalteca de zapatos deportivos fundada en 2010. Llevamos más de 14 años ayudando a atletas y deportistas a encontrar el calzado perfecto.</p>
+    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80" alt="Foto de la tienda">
+  </div>
+
+  <div class="seccion" id="acerca">
+    <h2>🏆 Acerca de Nosotros</h2>
+    <p><strong>Misión:</strong> Proveer calzado deportivo de calidad con un servicio honesto y accesible para todos los guatemaltecos.</p>
+    <p><strong>Visión:</strong> Ser la tienda de zapatos deportivos más reconocida de Centroamérica para el año 2030.</p>
+  </div>
+
+  <div class="seccion" id="productos">
+    <h2>🛍️ Productos que Ofrecemos</h2>
+    <ul>
+      <!-- ul = lista con puntos -->
+      <li>🏃 Running — para corredores de calle y montaña</li>
+      <li>⚽ Fútbol — tacos para césped natural y artificial</li>
+      <li>🏀 Básquetbol — zapatillas de cancha con soporte</li>
+      <li>🏋️ Gym y Crossfit — para entrenamiento funcional</li>
+      <li>🧒 Niños — diseños divertidos y materiales seguros</li>
+    </ul>
+  </div>
+
+  <div class="seccion" id="proveedores">
+    <h2>🏭 Proveedores (Marcas que Compramos)</h2>
+    <p>Compramos directamente a las marcas más reconocidas del mundo:</p>
+    <ul>
+      <li>Nike</li>
+      <li>Adidas</li>
+      <li>Puma</li>
+      <li>New Balance</li>
+      <li>Under Armour</li>
+      <li>Reebok</li>
+    </ul>
+  </div>
+
+  <div class="seccion" id="ventas">
+    <h2>💼 Ventas — ¿A Quién Le Vendemos?</h2>
+    <ul>
+      <li><strong>Cliente final:</strong> Personas que compran para uso personal.</li>
+      <li><strong>Colegios y clubes:</strong> Precios especiales para compras en grupo.</li>
+      <li><strong>Revendedores:</strong> Descuento por mayoreo desde 10 pares.</li>
+      <li><strong>Tienda en línea:</strong> Envíos a todo Guatemala.</li>
+    </ul>
+  </div>
+
+  <div class="seccion" id="contactos">
+    <h2>📞 Contactos</h2>
+    <p>📧 Correo: ventas@sportstep.gt</p>
+    <p>📱 Teléfono: +502 2345-6789</p>
+    <p>💬 WhatsApp: +502 5678-9012</p>
+    <p>📍 Dirección: 5a Avenida 10-50, Zona 1, Guatemala City</p>
+  </div>
+
+  <footer>
+    <p>"Y conoceréis la verdad y la verdad os hará libres" 👟</p>
+    <p>© 2026 SportStep Guatemala</p>
+  </footer>
+
+</body>
+</html>
